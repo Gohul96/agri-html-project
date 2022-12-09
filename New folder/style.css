@@ -1,0 +1,188 @@
+.background{
+    background: relative;
+    border: 0px;
+    background-position: center;
+    margin: 0px;
+    padding: 0px;
+    margin: -5px;
+    
+}
+.background:hover{
+    opacity: 0.25s;
+}
+.background:active{
+    opacity: 0.25;
+    transition: 0.15s;
+}
+.nav-menu{
+    float: right;
+
+}
+.heading-button{
+    
+    background-color: none;
+    color: blue;
+    height: 35px;
+    cursor: pointer;
+    text-align: center;
+    margin: 20px;
+    align-items: top;
+    text-decoration: none;
+}
+
+.heading-button:hover{
+    background-color:aqua;
+    color:white;
+    opacity: 0.5;
+
+}
+
+.heading-button:active{
+    opacity: 0.5;
+    transition: 0.15s;
+}
+.tagline {
+    position:absolute;
+    color: #fff;
+    width: 1200px;
+    margin-left: 0px;
+    margin-top: 0px;
+}
+
+.h1 {
+    color: aquamarine;
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    margin-top: 275px;
+}
+.search input{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    font: 16px;
+    background: transparent;
+    width: 25px;
+    height: 25px;
+    padding: 10px;
+    border: solid 3px #9A86FD;
+    outline: none;
+    border-radius: 35px;
+    transition: all 0.5s;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+            0 6px 20px 0 #9A86FD;
+}
+
+input::placeholder {
+    color: #efefef;
+    opacity: 0;
+    transition: opacity 150ms ease-out;
+}
+
+input:focus::placeholder {
+    opacity: 1;
+}
+
+input:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+            0 6px 20px 0 #FFB870;
+}
+
+input:focus,
+input:not(:placeholder-shown) {
+    width: 250px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+            0 6px 20px 0 #FFB870;
+}
+.tagline-1{
+
+    position: absolute;
+    width: 1200px;
+    color: #fff;
+    margin-left: 800px;
+    margin-top: 0px;
+    text-align: bottom; 
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Allan:wght@700&display=swap');
+.h2{
+    text-align: right;
+    margin-left: 800px;
+    margin-top: 275px;
+    font-weight: 700;
+    font-family: 'Allan', cursive;
+
+}
+.course-contents{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-decoration: none;
+}
+.course1{
+    height:303px;
+    width:382px;
+    background-color: transparent;
+    border:none;
+    box-shadow: transparent;
+    font-family:'Roboto', sans-serif;
+    font-weight:700;
+    display: flex;
+    flex-direction: column;
+    padding-right: 3px;
+    padding-top:10px;
+    border-radius:16px solid;
+    color: #ffffff;
+    font-size: 30px;
+}
+.course1 snap{
+    padding-top: 3px;
+    padding-bottom:14px ;
+    font-size:30px;
+    font-family:'Roboto', sans-serif;
+    font-weight: 600;
+    color: #fff;
+    text-align: center;
+    border: whitesmoke solid;
+  
+    text-decoration:underline;
+    
+}
+.course1{
+    font-size:1rem;
+    color: #ffffff;
+    font-weight: 300;
+    font-size:24px;
+    margin-left: 10px;
+    margin-right: 20px;
+    margin-top: 30px;
+    margin-bottom:50px;
+    padding-left: 6px;
+}
+.course1:hover{
+    cursor: pointer;
+    opacity:0.8;
+}
+@import url('https://fonts.googleapis.com/css2?family=Allan&display=swap');
+.box{
+    padding-top: 5px;
+  
+    color: aqua;
+    border-radius: 5px;
+    text-align: justify;
+    text-decoration: none;
+    align-items: left;
+    float: right;
+    float: bottom;
+    font-family:  'Allan', cursive;
+    font-weight: 400;
+    background-color: transparent;
+
+}
+.box:hover{
+    text-transform: uppercase;
+}
+
+

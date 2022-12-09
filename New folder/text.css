@@ -1,0 +1,179 @@
+
+   .background{
+        background: fixed;
+        border: 0px;
+        
+    }
+    .background:hover{
+        opacity: 0.25s;
+    }
+    .background:active{
+        opacity: 0.25;
+        transition: 0.15s;
+    }
+    .nav-menu{
+        float: right;
+    
+    }
+    .home-button{
+        
+        background-color:#fff;
+        color: blue;
+        border: 2px;
+        height: 35px;
+        width: 80px;
+        border-radius: 10px;
+        cursor: pointer;
+        text-align: center;
+        margin: 8px;
+        align-items: top right;
+    }
+    
+    .home-button:hover{
+        background-color:aqua;
+        color:white;
+        opacity: 0.5;
+    
+    }
+    
+    .home-button:active{
+        opacity: 0.5;
+        transition: 0.15s;
+    }
+    
+    .product-button{
+        background-color: white;
+        color: blue;
+        border: 2px;
+        height: 36px;
+        width: 100px;
+        border-radius: 10px;
+        cursor: pointer;
+        text-align: center;
+        margin: 8px;
+        align-items: top right;
+    
+    
+    }
+    
+    .product-button:hover{
+        background-color: aqua;
+        color: white;
+        opacity: 0.5;
+    
+    }
+    
+    .product-button:active{
+        opacity: 0.5;
+        transition: 0.15s;
+    }
+    
+    .about-button,
+    .contact-button {
+        
+        background-color:white;
+        color:rgb(55, 55, 235);
+        border: 2px;
+        height: 36px;
+        width: 100px;
+        border-radius: 10px;
+        cursor: pointer;
+        text-align: center;
+        margin: 8px;
+        align-items: top right;
+    
+    }
+    
+    .about-button:hover,
+    .contact-button:hover {
+        background-color:aqua;
+        color: white;
+        opacity: 0.5;
+    }
+    
+    .about-button:active,
+    .contact-button:active {
+        transition: 0.15s;
+    }
+    
+    .login-button {
+        
+        background-color:white;
+        color: rgb(55, 55, 235);;
+        border: 2px;
+        height: 36px;
+        width: 100px;
+        border-radius: 5px;
+        cursor: pointer;
+        text-align: center;
+        margin: 8px;
+        align-items: top right;
+    
+    }
+    
+    .login-button:hover {
+        background-color: aqua;
+        color: white;
+        opacity: 0.5;
+    }
+    .login-button:active{
+        transition: 0.15s;
+    }
+    
+    .tagline {
+        position:absolute;
+        width: 1200px;
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+    
+    .h1 {
+        color: aquamarine;
+        font-size: 50px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-align: center;
+        margin-top: 275px;
+
+    }
+
+    .input {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        color: white;
+        font: 16px;
+        background: transparent;
+        width: 25px;
+        height: 25px;
+        padding: 10px;
+        border: solid 3px #9A86FD;
+        outline: none;
+        border-radius: 35px;
+        transition: all 0.5s;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+                0 6px 20px 0 #9A86FD;
+    }
+
+    .input::placeholder {
+        color: #efefef;
+        opacity: 0;
+        transition: opacity 150ms ease-out;
+    }
+
+    .input:focus::placeholder {
+        opacity: 1;
+    }
+
+    .input:hover {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+                0 6px 20px 0 #FFB870;
+    }
+
+    .input:focus,
+    .input:not(:placeholder-shown) {
+        width: 250px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+                0 6px 20px 0 #FFB870;
+    }
+        

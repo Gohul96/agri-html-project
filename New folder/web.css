@@ -1,0 +1,102 @@
+
+    .back{
+        background-color:whitesmoke;
+        background-size: cover;
+        font-family:'Roboto', sans-serif;
+        background: linear-gradient(rgb(243, 246, 234),rgb(158, 193, 64));
+        }
+        .nav{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+        .logo{
+            padding-left: 0;
+            padding-right: 12px;
+            padding-top: 0;
+            display: inline-block;
+            margin-top: 0;
+        }
+        .heading-button{
+            text-decoration: none;
+            text-align:justify;
+            font-family:'Roboto', sans-serif;
+            font-weight: 700;
+            color:black;
+            font-size: 26px;
+            display: inline-block;
+            justify-items: 1rem;
+            text-align: center;
+        }
+        .contents{
+            list-style: none;
+        }
+        .contents ul{
+            flex: 1;
+            text-align: right;
+        }
+        .contents ul,li{
+            display:inline-block;
+            padding: 0 1rem;
+        }
+        .login{
+            background-color: rgb(44, 131, 186);
+            height: 50px;
+            color: #ffffff;
+            transition: 0.3s;
+            border: none;
+            box-shadow: gray 2px 2px 2px;
+            border-radius: 20px;
+            font-family:'Roboto', sans-serif;
+            font-weight: 700;
+            font-size: 20px;
+            padding-left:10px;
+            padding-right:10px;
+            padding-top: 2px;
+            padding-bottom: 2px;
+        }
+        .login:hover{
+            background-color:white;
+            color: black;
+        }
+        .nav .contents ul li a:hover{
+            color: rgb(154, 168, 47);
+        }
+        .shop{
+            color: #ffffff;
+            background-color: rgb(182, 3, 39);
+            border: 20px;
+            padding-top:15px;
+            padding-bottom: 15px;
+            padding-left: 15px;
+            padding-right: 15px;
+            text-align:center;
+            height:25px;
+            width:550px;
+            margin-left:470px;
+        }
+        .shop-link{
+            text-decoration:none;
+            color: #ffffff;
+            cursor: pointer;
+        }
+        .shop-link:hover{
+            text-decoration: underline;
+        }
+       .copyright{
+            marker:rgb(232, 255, 247);
+        }
+        .inputs{
+            font-size:22px;
+            font-style:arial;
+            font-weight: 400;
+            box-sizing:content-box;
+        }
+        .body-content{
+            font-family:'Roboto', sans-serif;
+            font-size: 2rem;
+            color: aliceblue;
+            text-shadow: 1px 1px 2px rgb(98, 97, 97);
+            text-align: justify;
+        }
+    

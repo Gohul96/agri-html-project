@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Document</title>
+    <style>
+    .menu-bar-1{
+        display: none;
+      }
+      .menu-bar-1 ul li:hover .menu-bar-1{
+        display: block;
+        position: absolute;
+        background-color: rgb(0,100,0);
+        margin-top: 15px;
+        margin-left: 15px;
+      
+      }
+      .menu-bar ul li:hover .menu-bar-1 ul{
+        display: block;
+        margin: 10px;
+      }
+      .menu-bar ul li:hover .menu-bar-1 ul li{
+      width: 150px;
+      padding: 10px;
+      text-align: left;
+      background-color:none;
+      border-bottom:1px dotted #fff;
+      }
+      .menu-bar ul li:hover .menu-bar-1 ul li:last-child{
+        border-bottom: none;
+      }
+      .menu-bar ul li:hover .menu-bar-1 ul li:hover{
+        color: #b2ff00;
+      }
+      .fa-angle-right{
+        float: right;
+      }
+      .menu-bar-2{
+        display: none;
+      }
+      .active:hover .menu-bar-2{
+      position: absolute;
+      display: block;
+      margin-top: -40px;
+      margin-left: 140px;
+      background: rgb(0,100,0);
+      float: left;
+      }
+      .fa-user{
+        margin-right:5px;
+      }
+      .fa-home{
+        margin-right: 2px;
+      }
+      .fa-edit{
+        margin-right: 5px;
+      }
+    </style>
+    
+</head>
+<body>
+    <li><a href ="#"><i class="fa fa-edit" style="font-size:14px"></i>FEATURES</a>
+        <div class="menu-bar-1">
+          <ul>
+            <li><a href ="#">sathvik</a></li>
+            <li class="active"><a href ="#">srivatsa</a><i class="fa fa-angle-right" style="font-size:18px"></i>
+              <div class="menu-bar-2">
+                <ul>
+                  <li><a href ="#">hemanth</a></li>
+                  <li><a href ="#">vardhan</a></li>
+                  <li><a href ="#">ankith</a> </li>
+  
+                </ul>
+              </div>
+            </li>
+            <li class="active"><a href ="#">shivam </a><i class="fa fa-angle-right" style="font-size:18px"></i>
+              <div class="menu-bar-2">
+                <ul>
+                  <li><a href ="#">himanshu</a></li>
+                  <ii><a href ="#"></a></ii>
+                  <li><a href ="#"></a></li>
+                  
+                
+                </ul>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </li>
+   
+    
+</body>
+</html>
